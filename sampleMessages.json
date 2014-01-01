@@ -1,0 +1,8 @@
+{"SMSMessageData":
+   {"Messages":
+      [
+         {"from":"2547XXYYYZZZ","to":"5252","text":"A test message","timestamp":"2012-07-15 15:40:06","id":"1"},
+         {"from":"2547XXYYYZZZ","to":"5252","text":"Another test message","timestamp":"2012-07-15 15:47:06","id":"10"},
+      ]
+   }
+}
