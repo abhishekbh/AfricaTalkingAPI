@@ -1,7 +1,3 @@
-/**
- * Module dependencies.
- */
-
 var express = require('express');
 var routes = require('./routes');
 var user = require('./routes/user');
@@ -28,6 +24,7 @@ if ('development' == app.get('env')) {
 }
 
 app.get('/', routes.index);
+app.get('/read', routes.read);
 app.get('/users', user.list);
 
 http.createServer(app).listen(app.get('port'), function(){
