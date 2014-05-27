@@ -7,3 +7,4 @@ A GET parameter: lastReceivedId, whose value is the id of the message that you l
 A HEADER: Accept, whose value shall indicate the media type you would like for the server response. You may specify application/xml or application/json, the default being application/xml.
 
 More Doc: http://api.africastalking.com/version1/messaging 
+Based upon: https://github.com/madhums/node-express-mongoose-demo
